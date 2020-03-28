@@ -10,19 +10,15 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.helloVSCode",
-    "onCommand:extension.showTime"
+    "onCommand:catCoding.start"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.helloVSCode",
-        "title": "Hello VS Code"
-      },
-      {
-        "command": "extension.showTime",
-        "title": "What time is it?"
+        "command": "catCoding.start",
+        "title": "Start new Cat Coding session",
+        "category": "Cat Coding"
       }
     ]
   },
