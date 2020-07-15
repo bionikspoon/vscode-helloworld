@@ -18,5 +18,6 @@ module.exports = {
   rules: {
     "@typescript-eslint/no-empty-function": "warn",
     "prettier/prettier": "warn",
+    "@typescript-eslint/no-use-before-define": ["error", { functions: false }],
   },
 }
